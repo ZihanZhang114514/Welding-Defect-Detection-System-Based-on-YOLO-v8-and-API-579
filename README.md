@@ -1,3 +1,9 @@
+<p align="center">
+
+**中文** | [English](README_EN.md)
+
+</p>
+
 # 基于 YOLOv8 与 API 579 FFS 的焊接缺陷自动识别与评估系统
 
 <p align="center">
