@@ -1,5 +1,5 @@
-# Welding-Defect-Detection-System-Based-on-YOLO-v8-and-API-579
-
+# 基于YOLO v8和API 579 FFS的焊接缺陷检测系统
+- （常州大学--过程装备与控制工程--张子涵）
 ## 操作步骤
 1.通过requirements.txt安装依赖<br>
 2.运行<br>
@@ -9,6 +9,10 @@ python main_selector.py
 3.根据程序提示选择待测图片文件夹，输入待测材料参数<br>
 4.开始运行，等待程序输出结果<br>
 
+---
+
+# Welding-Defect-Detection-System-Based-on-YOLO-v8-and-API-579-FFS
+- (ChangZhou University--Process Equipment and Control Engineering--Zihan Zhang)
 ## Operation steps
 1. Install dependencies through requirements.txt<br>
 2. Run<br>
