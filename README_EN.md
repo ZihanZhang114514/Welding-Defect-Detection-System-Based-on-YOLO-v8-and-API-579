@@ -1,22 +1,10 @@
-# Welding Defect Automatic Detection and Assessment System Based on YOLOv8 and API 579 FFS
-
-<p align="center">
-
-**Welding Defect Detection and Assessment System Based on Machine Vision**
-
-</p>
-
-<p align="center">
-
-YOLOv8-based welding defect detection combined with API 579 Fitness-For-Service assessment
-
-</p>
-
 <p align="center">
 
 [中文](README.md) | **English**
 
 </p>
+
+# Welding Defect Automatic Detection and Assessment System Based on YOLOv8 and API 579 FFS
 
 ---
 
