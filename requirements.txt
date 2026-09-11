@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+# Gitpush 工程 Python 依赖清单
+# ============================================================
+# 由工程内全部 .py 文件的 import 语句统计得出（仅列第三方库，
+# 标准库 csv/json/math/os/sys/subprocess/threading/time/pathlib/tkinter 不需安装）。
+#
+# 安装：
+#     pip install -r requirements.txt
+#
+# 依赖来源：
+#   opencv-python : CrFrameAndReport.py / label_CR.py / label_LP.py / label_PO.py
+#   python-docx   : CrFrameAndReport.py / label_LP.py / label_PO.py
+#   ultralytics   : label_CR.py / label_LP.py / label_PO.py（YOLO 推理，自动带入 torch、torchvision 等）
+#   numpy         : config_and_data/normalize.py
+#   pandas        : config_and_data/normalize.py
+# ============================================================
+
+# --- 核心运行依赖（GUI 检测 / 评定 / 报告） ---
+opencv-python==4.13.0.92        # import cv2，图像读取与画框
+python-docx==1.2.0              # from docx import Document，生成 Word 报告
+ultralytics==8.4.19             # from ultralytics import YOLO，加载 models/*.pt 做缺陷检测
+
+# --- 数据处理脚本依赖（config_and_data/ 下的工具脚本） ---
+numpy==2.4.2                    # import numpy as np
+pandas==3.0.1                   # import pandas as pd
+
+# --- 说明 ---
+# 1) ultralytics 会自动安装 torch / torchvision / pillow / PyYAML / requests / scipy /
+#    matplotlib / tqdm 等间接依赖，无需在此重复声明。
+# 2) 若需要 GPU 推理，请按 https://pytorch.org 的指引单独安装 CUDA 版 torch
+#    （例如本机已装 torch==2.10.0+cu128），直接 pip 安装会得到 CPU 版本。
+# 3) tkinter 属标准库；Linux 下若缺失请用系统包管理器安装（如 apt install python3-tk）。
