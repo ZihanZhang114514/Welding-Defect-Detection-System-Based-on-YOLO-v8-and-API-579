@@ -1,0 +1,100 @@
+{
+    "heat_treatment": [
+        "正火和回火",
+        "水淬和回火"
+    ],
+    "material_type_for_one_t_flaw_assessment": [
+        "A.母材",
+        "B.焊缝（未经焊后热处理(PWHT)）",
+        "C.焊缝（已焊后热处理）"
+    ],
+    "temperature_exemption_curves": [
+        "A曲线",
+        "B曲线",
+        "C曲线",
+        "D曲线"
+    ],
+    "mys_low_alloy_steels": [
+        "200",
+        "210",
+        "220",
+        "230",
+        "240",
+        "250",
+        "260",
+        "270",
+        "280",
+        "290",
+        "300",
+        "310",
+        "320",
+        "330",
+        "340",
+        "360",
+        "380",
+        "400",
+        "420",
+        "440",
+        "460",
+        "480",
+        "500",
+        "520",
+        "540",
+        "560"
+    ],
+    "mys_carbon_steels": [
+        "200",
+        "210",
+        "220",
+        "230",
+        "240",
+        "250",
+        "260",
+        "270",
+        "280",
+        "290",
+        "300",
+        "310",
+        "320",
+        "330",
+        "340",
+        "360"
+    ],
+    "type_of_steel": [
+        "低合金钢",
+        "碳钢"
+    ],
+    "mys_and_temp_csv_path": {
+        "low_alloy_steels": "low_alloy_steel_reference_temperature.csv",
+        "carbon_steels": "carbon_steel_reference_temperature.csv"
+    },
+    "one_t_ass_csv_path": {
+        "A": "A_one_t_ass.csv",
+        "B": "B_one_t_ass.csv",
+        "C": "C_one_t_ass.csv"
+    },
+    "one_t_ass_json_path": "ABC_one_t_ass_json.json",
+    "description_01": "选择待测材料所对应的API 579 FFS中的温度豁免曲线类型(A,B,C,D)",
+    "description_02": "选择材料类型(母材、焊缝（未经焊后热处理(PWHT)）、焊缝（已焊后热处理）)",
+    "description_03": "选择钢材类型（低合金钢//碳钢）",
+    "description_04": "选择最小屈服强度（MYS）",
+    "description_01_en": "Select the temperature exemption curve type (A, B, C, D) in API 579 FFS for the material under test",
+    "description_02_en": "Select material type (base metal, weld without PWHT, weld with PWHT)",
+    "description_03_en": "Select steel type (low alloy steel / carbon steel)",
+    "description_04_en": "Select minimum yield strength (MYS)",
+    "material_type_for_one_t_flaw_assessment_en": [
+        "A. Base metal",
+        "B. Weld (without PWHT)",
+        "C. Weld (PWHT)"
+    ],
+    "temperature_exemption_curves_en": [
+        "A curve",
+        "B curve",
+        "C curve",
+        "D curve"
+    ],
+    "type_of_steel_en": [
+        "Low alloy steel",
+        "Carbon steel"
+    ]
+}
