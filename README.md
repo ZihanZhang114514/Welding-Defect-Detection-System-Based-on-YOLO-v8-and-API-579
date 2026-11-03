@@ -830,3 +830,19 @@ https://github.com/ZihanZhang114514
 * AI + 工程安全评价
 
 感兴趣，欢迎交流。
+
+---
+
+# 📄 License
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+**Copyright (c) 2026 Zihan Zhang**
+
+本项目以 **GNU Affero General Public License v3.0（AGPL-3.0）** 发布，完整协议文本见仓库根目录的 [LICENSE](LICENSE) 文件。
+
+本项目依赖 [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)，该项目同样以 AGPL-3.0 分发；使用、修改或再分发本项目时，请同时遵守其许可证要求。
+
+依据 AGPL-3.0，如果你修改了本项目并通过网络向他人提供服务，则需向这些使用者提供修改后的完整源代码。
+
+如果你希望在其他许可条款下使用本项目（例如闭源商业用途），请通过 GitHub 与作者联系。

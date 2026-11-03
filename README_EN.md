@@ -839,6 +839,22 @@ The project focuses on the intersection of:
 
 ---
 
+# 📄 License
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+**Copyright (c) 2026 Zihan Zhang**
+
+This project is released under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. The full license text is available in the [LICENSE](LICENSE) file at the repository root.
+
+This project depends on [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), which is also distributed under AGPL-3.0. Any use, modification, or redistribution of this project must comply with both licenses.
+
+Under AGPL-3.0, if you modify this project and make it available to others over a network, you must offer those users the complete corresponding source code of your modified version.
+
+If you would like to use this project under different terms (for example, in a closed-source commercial product), please contact the author via GitHub.
+
+---
+
 <p align="center">
 
 [中文 README](README.md) · [English README](README_EN.md)
